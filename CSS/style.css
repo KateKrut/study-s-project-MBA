@@ -1,0 +1,75 @@
+*, html, body {font-family: 'Roboto', sans-serif;}
+/*div {border:1px red solid;}*/
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    opacity: 1;
+    border:2px white solid;
+animation: 0s pulse infinite;
+    font-weight: 900;
+}
+
+.nav-pills .nav-link {
+   background: 0 0; 
+    border: 0;
+    border-radius: 0.25rem;
+    border-radius: 50%;
+    background: #fff;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    border: 2px white solid;
+    font-weight: 900;
+    animation: 2s pulse infinite;
+}
+
+@keyframes pulse {
+  0% {box-shadow: 0 0 0 0 white;}
+  70% {box-shadow: 0 0 10px 10px #ffffff50;}
+  30% {box-shadow: 0 0 0 0px white;}
+
+}
+
+.bg_black {
+  background: rgb(42,0,159);
+  background: linear-gradient(210deg, rgba(42,0,159,1) 0%, rgba(21,7,59,1) 100%);}
+
+.bg_black_prue_white {
+
+    background: url(../img/prue_white.svg), linear-gradient(210deg, rgb(8 22 125) 0%, rgb(27 7 81) 100%);
+    background-position-x: right;
+    background-position-y: center;
+    /*background-size: 80%;*/
+    background-repeat: no-repeat;
+  }
+
+
+
+.bg_blue {
+  background: #e7edf0; }
+.bg_blue_prue_wite {
+
+    background: url(../img/prue_white.svg) #e7edf0 ;
+    height: 600px;
+  }
+.bg_white {
+  background: #ffffff; }
+
+h1, .h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+h2, .h2 {font-size: 40px}
+h3, .h3 {font-size: 35px;}
+h4, .h4 {font-size: 20px}
+
+.carera { background: url(../img/bizines_piople.png); height: 600px}
+.job {width: 300px; background: #eee}
+
+
+@media  only screen and  (max-width:768px) {
+.carera { background: #FFF; height: 600px}
+.job {width: 100%;}
+}
